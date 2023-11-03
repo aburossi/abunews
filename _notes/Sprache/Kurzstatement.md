@@ -1,3 +1,6 @@
+---
+title:
+---
 Ein **Kurzstatement** ist eine kompakte und prägnante Darstellung deiner Meinung zu einem Thema. Hier ist eine schnelle Anleitung, wie du ein Kurzstatement für eine spontane Diskussion erstellen kannst:
 ## 1. Thema verstehen
 Mache dich kurz mit dem **Thema** vertraut, um zu verstehen, worum es geht.
