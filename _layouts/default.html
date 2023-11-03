@@ -2,7 +2,13 @@
 <html lang="en">
   {% include head.html %}
   <body>
-    <nav>{% include nav.html %}</nav>
+    <nav>
+      {% include nav.html %}
+      <form action="/search" method="get" class="search-form">
+          <input type="text" name="q" placeholder="Search...">
+          <button type="submit">Search</button>
+      </form>
+    </nav>
     <div class="wrapper">
       <main>{{ content }}</main>
       <footer>{% include footer.html %}</footer>
