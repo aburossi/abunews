@@ -177,27 +177,3 @@ button[type="submit"] {
         background-color: darken($color-primary, 10%);
     }
 }
-
-.callout {
-  padding: 15px;
-  margin: 15px 0;
-  border: 1px solid transparent;
-  border-left-width: 5px;
-  border-radius: $border-radius;
-}
-
-.callout-note {
-  border-left-color: #007bff;
-  background-color: #cce5ff;
-}
-
-.callout-warning {
-  border-left-color: #856404;
-  background-color: #fff3cd;
-}
-
-.callout-tip {
-  border-left-color: #0f5132;
-  background-color: #d1e7dd;
-}
-
