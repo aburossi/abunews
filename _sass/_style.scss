@@ -1,4 +1,4 @@
-$color-primary: hsl(78, 97%, 51%);
+$color-primary: hsl(0, 0%, 10%);
 $color-text: hsl(0, 0%, 20%);
 $color-subtext: hsl(0, 0%, 30%);
 $color-border: hsl(0, 0%, 85%);
@@ -143,4 +143,37 @@ code {
 .invalid-link-brackets {
   color: #ccc;
   cursor: help;
+}
+
+
+$form-background: white;
+$form-border-color: $color-border;
+$form-border-radius: $border-radius;
+
+form {
+    display: flex;
+    align-items: center;
+    background-color: $form-background;
+    border: 1px solid $form-border-color;
+    border-radius: $form-border-radius;
+    padding: 0.5em;
+}
+
+input[type="text"] {
+    border: none;
+    padding: 0.5em;
+    margin-right: 0.5em;
+    flex-grow: 1;
+}
+
+button[type="submit"] {
+    border: none;
+    background-color: $color-primary;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: $form-border-radius;
+    cursor: pointer;
+    &:hover {
+        background-color: darken($color-primary, 10%);
+    }
 }
