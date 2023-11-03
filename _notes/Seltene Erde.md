@@ -1,3 +1,6 @@
+---
+SLP: "[[Ökologie]]"
+---
 # Seltene Erde
 ## Ablauf Woche 1:
 >Kupfer, Lithium und Co – was es braucht für die Energiewende
